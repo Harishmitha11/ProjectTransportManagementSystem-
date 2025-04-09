@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportManagementSystem", "TransportManagementSystem.csproj", "{87B93E23-E724-472E-B772-A735F09D4AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportManagementUtilLibrary", "..\TransportManagementUtilLibrary\TransportManagementUtilLibrary.csproj", "{1B94500A-96B0-4105-881D-D931D463490B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportManagementEntityLibrary", "..\TransportManagementEntityLibrary\TransportManagementEntityLibrary.csproj", "{739C742C-5692-42FE-82CA-2CE18EC15B49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportManagementExceptionLibrary", "..\TransportManagementExceptionLibrary\TransportManagementExceptionLibrary.csproj", "{DDF8F9B9-6991-4BCF-947D-0F7065DF6861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportManagementDaoLibrary", "..\TransportManagementDaoLibrary\TransportManagementDaoLibrary.csproj", "{C6CD01B7-76C2-4407-A907-74FCCD226D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportManagementHelperLibrary", "..\TransportManagementHelperLibrary\TransportManagementHelperLibrary.csproj", "{E42D0D1A-B9A8-4727-9000-19759CEB70C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransportManagementSystemTests", "..\TransportManagementSystemTests\TransportManagementSystemTests.csproj", "{9D5702AD-7550-4834-8846-98014344B156}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87B93E23-E724-472E-B772-A735F09D4AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B93E23-E724-472E-B772-A735F09D4AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B93E23-E724-472E-B772-A735F09D4AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B93E23-E724-472E-B772-A735F09D4AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B94500A-96B0-4105-881D-D931D463490B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B94500A-96B0-4105-881D-D931D463490B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B94500A-96B0-4105-881D-D931D463490B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B94500A-96B0-4105-881D-D931D463490B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739C742C-5692-42FE-82CA-2CE18EC15B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739C742C-5692-42FE-82CA-2CE18EC15B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739C742C-5692-42FE-82CA-2CE18EC15B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739C742C-5692-42FE-82CA-2CE18EC15B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF8F9B9-6991-4BCF-947D-0F7065DF6861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF8F9B9-6991-4BCF-947D-0F7065DF6861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF8F9B9-6991-4BCF-947D-0F7065DF6861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF8F9B9-6991-4BCF-947D-0F7065DF6861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6CD01B7-76C2-4407-A907-74FCCD226D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6CD01B7-76C2-4407-A907-74FCCD226D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6CD01B7-76C2-4407-A907-74FCCD226D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6CD01B7-76C2-4407-A907-74FCCD226D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42D0D1A-B9A8-4727-9000-19759CEB70C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42D0D1A-B9A8-4727-9000-19759CEB70C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42D0D1A-B9A8-4727-9000-19759CEB70C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42D0D1A-B9A8-4727-9000-19759CEB70C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D5702AD-7550-4834-8846-98014344B156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5702AD-7550-4834-8846-98014344B156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5702AD-7550-4834-8846-98014344B156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5702AD-7550-4834-8846-98014344B156}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBABE3CD-4D9C-46FF-A4D5-AFB4DC926A42}
+	EndGlobalSection
+EndGlobal
